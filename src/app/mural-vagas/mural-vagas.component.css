@@ -1,0 +1,25 @@
+.section_container{
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    min-height: calc(100vh - (6rem + 4rem));
+}
+
+.lista-vagas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.lista-vagas .card{
+    margin: 5px 10px;
+    min-height: 450px;
+}
+
+.img{
+    width: 100%; 
+    display: block; 
+    object-fit: cover;
+  }

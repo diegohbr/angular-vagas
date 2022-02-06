@@ -1,0 +1,30 @@
+<h2 align=center>CADASTRO DE VAGAS</h2>
+<div class="form_container">
+    <form>
+        <div class="mb-3">
+            <label for="name" class="form-label">ID</label>
+            <input type="text" name="id" required class="form-control" [(ngModel)]="vaga.id">
+        </div>
+        <div class="mb-3">
+            <label for="name" class="form-label">NOME</label>
+            <input type="text" name="nome" required maxlength=45 class="form-control" [(ngModel)]="vaga.nome">
+        </div>
+        <div class="mb-3">
+            <label for="name" class="form-label">FOTO</label>
+            <input type="text" name="foto" class="form-control" [(ngModel)]="vaga.foto"> 
+        </div>
+        <div class="mb-3">
+            <label for="name" class="form-label">DESCRIÇÃO</label>
+            <input type="text" name="descricao" required class="form-control" [(ngModel)]="vaga.descricao">
+        </div>
+        <div class="mb-3">
+            <label for="name" class="form-label">SALÁRIO</label>
+            <input type="text" name="salario" required class="form-control" [(ngModel)]="vaga.salario">
+        </div>
+        <div class="botao_container">
+            <button class="btn btn-success btn-block" type="button" (click)="cadastrar()">Cadastrar</button>
+            <button class="btn btn-primary btn-block" type="button" (click)="atualizar(vaga.id)">Atualizar</button>
+            <button class="btn btn-danger btn-block" type="button" (click)="excluir(vaga.id)">Excluir</button>
+        </div>
+    </form>
+</div>

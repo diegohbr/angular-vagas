@@ -1,0 +1,27 @@
+.form_container{
+    width: 90vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 2rem;
+    min-height: calc(100vh - (6rem + 4rem))
+}
+
+form{
+    width: 90vw;
+    max-width: 992px; 
+    background: #f8fafc;
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    padding: 2rem 2.5rem;
+    margin: 3rem auto;
+}
+
+.botao_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin-right: 10px;
+}

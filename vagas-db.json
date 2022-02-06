@@ -1,0 +1,32 @@
+{
+  "vagas": [
+    {
+      "id": 1,
+      "nome": "Desenvolvedor Back End Jn",
+      "foto": "foto1.jpg",
+      "descricao": "Trabalhar com Java",
+      "salario": 5000
+    },
+    {
+      "id": 3,
+      "nome": "Desenvolvedor Fulstack Senior",
+      "foto": "foto3.jpg",
+      "descricao": "Trabalhar com HTML e CSS",
+      "salario": 10000
+    },
+    {
+      "id": "4",
+      "nome": "Supervisor Projetos",
+      "foto": "foto4.jpg",
+      "descricao": "Supervisionar projetos",
+      "salario": "15000"
+    },
+    {
+      "id": "5",
+      "nome": "Professor SENAI",
+      "foto": "foto5.jpg",
+      "descricao": "Dara aula sobre diversos assuntos",
+      "salario": "2500"
+    }
+  ]
+}
